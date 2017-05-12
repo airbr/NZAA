@@ -7,24 +7,35 @@
         <title>NZAA</title>
 
         <link rel="stylesheet" href="stylesheets/styles.css">
+
     </head>
 
     <body class="HolyGrail">
     <!--Credit to https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/-->
 
-        <header>…</header>
+        <header></header>
 
             <div class="HolyGrail-body">
 
-                <main class="HolyGrail-content"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </main>
+                <nav class="HolyGrail-nav"></nav>
 
-                <nav class="HolyGrail-nav"> NAV </nav>
+                <main class="HolyGrail-content"></main>
 
-                <aside class="HolyGrail-ads"> ADS </aside>
+                <aside class="HolyGrail-ads"></aside>
 
             </div>
 
-        <footer>…</footer>
+        <footer></footer>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script>
+        $("header").load("views/header.html");
+        $("nav").load("views/nav.html");
+        $("main").load("views/main.html");
+        $("aside").load("views/aside.html");
+        $("footer").load("views/footer.html");
+    </script>
+
     </body>
 
 </html>
