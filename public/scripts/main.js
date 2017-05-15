@@ -3,6 +3,7 @@
 
     var SERVER_URL = 'https://new-zealand-atlanta-assn.firebaseio.com/api.json';
 
+    //jQuery Implementation
     // $.ajax({url: SERVER_URL, success: function(result){
     //     console.log(result);
     //     var main = JSON.stringify(result);
@@ -10,6 +11,7 @@
     //     $('#div1').html(main);
     // }});
 
+    //fetch implementation
     function timeToFetch() {
         fetch('https://new-zealand-atlanta-assn.firebaseio.com/api.json').then(function (response) {
             console.log(response);
@@ -18,7 +20,15 @@
 
                 var main = JSON.stringify(data);
 
-                $('#div1').html(main);
+                // $('#div1').html(main);
+
+                var app = new Vue({
+                    el: '#app',
+                    data: {
+                        message: main
+                    }
+                })
+
 
             return console.log(data);
         }).catch(function (error) {
