@@ -1,0 +1,25 @@
+{
+  "name": "new-zealand-atlanta-associaton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello from NZAA\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airbr/nzaa.git"
+  },
+  "keywords": [
+    "nzaa"
+  ],
+  "author": "Morgan Murrah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airbr/nzaa/issues"
+  },
+  "homepage": "https://github.com/airbr/nzaa#readme",
+  "dependencies": {
+    "ejs": "^2.5.6"
+  }
+}
