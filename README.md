@@ -1,16 +1,16 @@
 ## New Zealand Atlanta Association Website - 2017
 
 
-An experiment at implementing website based on a stack consisting of:
+An experiment at implementing a website based on a stack consisting of:
 
-**Google Docs - Google Sheets - Firebase - jQuery...**
+**Google Docs & Sheets - Firebase - Vue**
 
 ![Google Docs](readme-assets/Docs-icon.png)
 ![Google Sheets](readme-assets/Sheets-icon.png)
 ![Firebase (Google)](readme-assets/google_firebase-512.png)
-![jQuery](readme-assets/jquery-icon-17841.png)
+![Vue](readme-assets/vue-icon.png)
 
-**.... a surprisingy powerful stack on the cheap with a Rich Text Editor, CMS Publishing platform, Realtime Database and Mature Front End Framework for a variety of use cases. Google-Query stack maybe?**.
+**= a surprisingly powerful stack on the cheap with a Rich Text Editor, CMS Publishing platform, Realtime Database and razor-thin but powerful moden JS Front End Framework [combined with the new Fetch API](https://developers.google.com/web/updates/2015/03/introduction-to-fetch) suitable for a variety of use cases. The G\*ue stack perhaps?**.
 
 ### [Live example: NZAA website (TODO)]()
 
@@ -19,7 +19,7 @@ An experiment at implementing website based on a stack consisting of:
 This Repo will only get you the 'front end' of the project-
 
 1. Clone the repo `git clone https://github.com/airbr/nzaa`
-2. Change into the public directory and install dependencies with npm `cd public && npm install`
+2. Change into the public directory and install dependencies with npm `cd public && npm it`
 
 To get the full stack working if you wish to refactor this project it is necessary to :
 
